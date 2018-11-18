@@ -1,0 +1,15 @@
+[package]
+name = "lenrs"
+version = "0.1.0"
+authors = ["Mason Stallmo <masonstallmo@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.pyo3]
+version = "0.5"
+features = ["extension-module"]
+
+[lib]
+crate-type = ["cdylib"]
+name = "lenrs"
